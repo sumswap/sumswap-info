@@ -57,7 +57,7 @@ const AccountLink = styled.span`
   display: flex;
   cursor: pointer;
   color: ${({ theme }) => theme.link};
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 `
 
@@ -128,7 +128,7 @@ function AccountSearch({ history, small }) {
                         }}
                       >
                         <StyledIcon>
-                          <X size={16} />
+                          <X size={12} />
                         </StyledIcon>
                       </Hover>
                     </Flex>

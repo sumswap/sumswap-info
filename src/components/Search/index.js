@@ -502,7 +502,7 @@ export const Search = ({ small = false }) => {
                   <RowFixed>
                     <TokenLogo address={token.id} style={{ marginRight: '10px' }} />
                     <FormattedName text={token.name} maxCharacters={20} style={{ marginRight: '6px' }} />
-                    (<FormattedName text={token.symbol} maxCharacters={6} />)
+                    <FormattedName text={token.symbol} maxCharacters={6} />
                   </RowFixed>
                 </MenuItem>
               </BasicLink>
